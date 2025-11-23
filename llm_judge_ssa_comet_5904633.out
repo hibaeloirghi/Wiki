@@ -1,0 +1,33 @@
+Job ID: 5904633
+Node: vulcan34
+Judge Type: xcomet
+Started at: Sun Nov 23 16:29:31 EST 2025
+Configuration:
+  Data directory: /fs/nexus-scratch/eloirghi/Wiki-LLM-as-judge-DATA-SCRATCH/non_filtered_clean/
+  Output directory: ./llm_judge_results_ssa_comet_xcomet_20251123_162931
+  Judge type: xcomet
+  Languages: Hausa Igbo Swahili Yoruba Zulu
+  XCOMET model: Unbabel/XCOMET-XL
+  Processing all segments (no debug limit)
+  Not using error span detection (default)
+
+=== Step 1: Using non_filtered_clean data ===
+Found data in: /fs/nexus-scratch/eloirghi/Wiki-LLM-as-judge-DATA-SCRATCH/non_filtered_clean/
+total 21881
+drwxrwxr-x. 2 eloirghi eloirghi    4096 Nov  6 12:32 .
+drwxrwxr-x. 2 eloirghi eloirghi    4096 Oct  9 10:51 ..
+-rw-rw-r--. 1 eloirghi eloirghi 3425259 Oct 28 12:05 WikiPairwiseHausaNEW_non_filtered_clean.csv
+-rw-rw-r--. 1 eloirghi eloirghi 3930430 Oct  9 10:54 WikiPairwiseIgbo_non_filtered_clean.csv
+-rw-rw-r--. 1 eloirghi eloirghi 4455680 Oct  9 10:54 WikiPairwiseSwahili_non_filtered_clean.csv
+-rw-rw-r--. 1 eloirghi eloirghi 4865630 Oct  9 10:54 WikiPairwiseYoruba_non_filtered_clean.csv
+-rw-rw-r--. 1 eloirghi eloirghi 5727819 Oct  9 10:54 WikiPairwiseZulu_non_filtered_clean.csv
+
+=== Step 2: Running SSA-COMET LLM-as-judge evaluation ===
+Running command: /nfshomes/eloirghi/Wiki-LLM-as-judge/NLLB_RTT_translation/.venv/bin/python llm_as_judge_ssa_comet.py --data_dir /fs/nexus-scratch/eloirghi/Wiki-LLM-as-judge-DATA-SCRATCH/non_filtered_clean/ --output_dir ./llm_judge_results_ssa_comet_xcomet_20251123_162931 --languages Hausa Igbo Swahili Yoruba Zulu --judge_type xcomet --xcomet_model Unbabel/XCOMET-XL --comet_batch_size 8 --comet_gpus 1
+
+Setting up XCOMET model (Unbabel/XCOMET-XL)...
+
+=== Processing Hausa ===
+Loaded 1563 rows for Hausa
+Processing 500 segments for Hausa
+Error in XCOMET evaluation: [Errno 116] Stale file handle

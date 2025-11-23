@@ -1,0 +1,88 @@
+{
+  "per_language": {
+    "Hausa": {
+      "ssa": {
+        "count": 500,
+        "spearman": -0.18266785819553594,
+        "pearson": -0.15134258392115796,
+        "agreement_rate": 0.404
+      },
+      "comet": {
+        "count": 0,
+        "spearman": null,
+        "pearson": null,
+        "agreement_rate": null
+      }
+    },
+    "Igbo": {
+      "ssa": {
+        "count": 1000,
+        "spearman": 0.7415973445220426,
+        "pearson": 0.7694954748349035,
+        "agreement_rate": 0.884
+      },
+      "comet": {
+        "count": 312,
+        "spearman": 0.06446440877108936,
+        "pearson": 0.07058471635886321,
+        "agreement_rate": 0.8685897435897436
+      }
+    },
+    "Swahili": {
+      "ssa": {
+        "count": 1000,
+        "spearman": 0.40482616946943606,
+        "pearson": 0.38144006444189066,
+        "agreement_rate": 0.678
+      },
+      "comet": {
+        "count": 975,
+        "spearman": 0.41265413597452844,
+        "pearson": 0.42263490689776406,
+        "agreement_rate": 0.6923076923076923
+      }
+    },
+    "Yoruba": {
+      "ssa": {
+        "count": 835,
+        "spearman": 0.2313152103710155,
+        "pearson": 0.21298800265427997,
+        "agreement_rate": 0.6431137724550898
+      },
+      "comet": {
+        "count": 813,
+        "spearman": 0.21539585007911072,
+        "pearson": 0.21923311513314167,
+        "agreement_rate": 0.5067650676506765
+      }
+    },
+    "Zulu": {
+      "ssa": {
+        "count": 1000,
+        "spearman": 0.16455181945368638,
+        "pearson": 0.1780917313603521,
+        "agreement_rate": 0.536
+      },
+      "comet": {
+        "count": 982,
+        "spearman": 0.16721885010690984,
+        "pearson": 0.18091105483539607,
+        "agreement_rate": 0.5417515274949084
+      }
+    }
+  },
+  "overall": {
+    "ssa": {
+      "count": 4335,
+      "spearman": 0.3930153302564254,
+      "pearson": 0.39959495219701546,
+      "agreement_rate": 0.6544405997693195
+    },
+    "comet": {
+      "count": 3082,
+      "spearman": 0.37017283775356447,
+      "pearson": 0.37900014416374345,
+      "agreement_rate": 0.6132381570408826
+    }
+  }
+}
